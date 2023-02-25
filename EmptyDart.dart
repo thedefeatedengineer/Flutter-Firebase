@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Empty Dart Page')),
-        body: const Text('Empty Page'),
+        body: Center(child: const Text('Empty Page')),
       ),
     );
   }
